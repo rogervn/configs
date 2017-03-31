@@ -1,0 +1,17 @@
+# Set system timezone
+ln -sf /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime
+hwclock --systohc
+
+# After configuring locale files
+locale-gen
+
+# Enable auto dhcp
+systemctl enable dhcpcd
+
+# After installing grub
+grub-install --target=i386-pc --debug --boot-directory=/boot/ /dev/vda
+grub-mkconfig -o /boot/grub/grub.cfg
+
+# Common user
+useradd -m -g users -G wheel -s /bin/bash rogervn
+passwd rogervn
