@@ -15,3 +15,8 @@ grub-mkconfig -o /boot/grub/grub.cfg
 # Common user
 useradd -m -g users -G wheel -s /bin/bash rogervn
 passwd rogervn
+
+# After unstallin util-linux
+systemctl enable fstrim.timer
+
+# After creating fstab -- add noatime to all partitions
