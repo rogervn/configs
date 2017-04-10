@@ -11,6 +11,7 @@ apache
 apr
 apr-util
 archlinux-keyring
+asar
 aspell
 at-spi2-atk
 at-spi2-core
@@ -36,6 +37,7 @@ brasero
 brltty
 bubblewrap
 bzip2
+c-ares
 ca-certificates
 ca-certificates-cacert
 ca-certificates-mozilla
@@ -88,6 +90,7 @@ dnssec-anchors
 dotconf
 dvd+rw-tools
 e2fsprogs
+electron
 empathy
 enca
 enchant
@@ -267,6 +270,7 @@ hdf5
 hicolor-icon-theme
 hitori
 hspell
+http-parser
 hunspell
 hwids
 hyphen
@@ -360,6 +364,7 @@ libglade
 libglvnd
 libgme
 libgnome-games-support
+libgnome-keyring
 libgnomekbd
 libgpg-error
 libgphoto2
@@ -528,6 +533,7 @@ mdadm
 mesa
 mesa-demos
 mime-types
+minizip
 mjpegtools
 mkinitcpio
 mkinitcpio-busybox
@@ -548,9 +554,12 @@ netcdf
 netctl
 nettle
 nm-connection-editor
+nodejs
+npm
 npth
 nspr
 nss
+numix-gtk-theme
 nvidia
 nvidia-utils
 oniguruma
@@ -628,6 +637,7 @@ python2-gobject2
 qqwing
 quadrapassel
 randrproto
+re2
 readline
 recode
 recordproto
@@ -646,11 +656,13 @@ sdl
 sdl2
 seahorse
 sed
+semver
 serf
 shadow
 shared-color-targets
 shared-mime-info
 smbclient
+snappy
 sound-theme-freedesktop
 speech-dispatcher
 speex

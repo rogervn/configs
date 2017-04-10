@@ -16,7 +16,16 @@ grub-mkconfig -o /boot/grub/grub.cfg
 useradd -m -g users -G wheel -s /bin/bash rogervn
 passwd rogervn
 
-# After unstallin util-linux
+# After installing util-linux
 systemctl enable fstrim.timer
 
-# After creating fstab -- add noatime to all partitions
+# Install yaourt (as user)
+mkdir build
+cd build
+git clone https://aur.archlinux.org/package-query.git
+cd package-query/
+makepkg -si
+cd ..
+git clone https://aur.archlinux.org/yaourt.git
+cd yaourt
+makepkg -si
