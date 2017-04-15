@@ -44,7 +44,6 @@ ca-certificates
 ca-certificates-cacert
 ca-certificates-mozilla
 ca-certificates-utils
-cabextract
 cairo
 cairomm
 cantarell-fonts
@@ -125,7 +124,6 @@ flatpak
 flex
 folks
 fontconfig
-fontforge
 fontsproto
 four-in-a-row
 freeglut
@@ -297,6 +295,8 @@ iso-codes
 jack
 jansson
 jasper
+java-environment-common
+java-runtime-common
 jbig2dec
 jfsutils
 js
@@ -439,7 +439,6 @@ libpaper
 libpcap
 libpciaccess
 libpeas
-libpgm
 libphonenumber
 libpipeline
 libplist
@@ -464,7 +463,6 @@ libshout
 libsigc++
 libsm
 libsndfile
-libsodium
 libsoup
 libsoxr
 libspectre
@@ -486,7 +484,6 @@ libtool
 libtorrent-rasterbar
 libtracker-sparql
 libtxc_dxtn
-libunicodenames
 libunistring
 libunwind
 libupnp
@@ -528,7 +525,6 @@ libxinerama
 libxkbcommon
 libxkbcommon-x11
 libxkbfile
-libxkbui
 libxklavier
 libxml2
 libxmu
@@ -591,6 +587,7 @@ nautilus
 nautilus-sendto
 ncurses
 neon
+net-tools
 netcdf
 netctl
 nettle
@@ -765,6 +762,7 @@ usbutils
 util-linux
 v4l-utils
 vala
+veracrypt
 vi
 vid.stab
 videoproto
@@ -783,6 +781,7 @@ webrtc-audio-processing
 wget
 which
 whois
+wxgtk
 x265
 xautomation
 xbindkeys
@@ -861,7 +860,6 @@ yajl
 yelp
 yelp-xsl
 zenity
-zeromq
 zip
 zita-alsa-pcmi
 zita-resampler
