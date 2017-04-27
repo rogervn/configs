@@ -26,7 +26,6 @@ autoconf-archive
 autogen
 automake
 avahi
-babl
 baobab
 bash
 bind-tools
@@ -86,7 +85,6 @@ diffutils
 djvulibre
 dleyna-connector-dbus
 dleyna-core
-dleyna-renderer
 dleyna-server
 dmxproto
 dnssec-anchors
@@ -145,7 +143,6 @@ gdl
 gdm
 gedit
 gedit-code-assistance
-gegl
 geoclue2
 geocode-glib
 geoip
@@ -199,7 +196,6 @@ gnome-nettool
 gnome-nibbles
 gnome-online-accounts
 gnome-online-miners
-gnome-photos
 gnome-robots
 gnome-screenshot
 gnome-session
@@ -256,6 +252,7 @@ gtkspell3
 gts
 gucharmap
 guile
+guile2.0
 gupnp
 gupnp-av
 gupnp-dlna
@@ -300,6 +297,7 @@ java-runtime-common
 jbig2dec
 jfsutils
 js
+js38
 json-c
 json-glib
 kbd
@@ -361,16 +359,17 @@ libevdev
 libevent
 libexif
 libexttextcat
+libfakekey
 libfbclient
 libffi
 libfontenc
+libfprint
 libgcrypt
 libgda
 libgdata
 libgdm
 libgee
 libgepub
-libgexiv2
 libgit2
 libgit2-glib
 libglade
@@ -422,6 +421,7 @@ libmwaw
 libnautilus-extension
 libnfs
 libnftnl
+libnghttp2
 libnice
 libnl
 libnm
@@ -450,7 +450,6 @@ libpulse
 libpwquality
 libquvi
 libquvi-scripts
-libraw
 libraw1394
 libreoffice-fresh
 librevenge
@@ -466,7 +465,6 @@ libsndfile
 libsoup
 libsoxr
 libspectre
-libspiro
 libsrtp
 libssh
 libssh2
@@ -606,6 +604,7 @@ openjpeg
 openjpeg2
 openresolv
 openssl
+openssl-1.0
 opus
 orc
 orca
@@ -633,6 +632,7 @@ pixman
 pkg-config
 polari
 polkit
+polkit-qt4
 poppler
 poppler-glib
 popt
@@ -642,6 +642,7 @@ protobuf
 psmisc
 pulseaudio
 pulseaudio-alsa
+pulseaudio-bluetooth
 pygobject-devel
 pygobject2-devel
 pygtk
@@ -674,6 +675,7 @@ python2-cairo
 python2-gobject
 python2-gobject2
 qbittorrent
+qca-qt4
 qqwing
 qt4
 qt5-base
