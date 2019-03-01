@@ -10,6 +10,7 @@ alsa-lib
 alsa-plugins
 alsa-tools
 alsa-utils
+amtk
 anjuta
 aom
 apache
@@ -43,6 +44,7 @@ bison
 bluez
 bluez-libs
 bluez-utils
+bolt
 boost-libs
 brasero
 brltty
@@ -127,6 +129,7 @@ exiv2
 expat
 faac
 faad2
+faenza-icon-theme
 fakeroot
 farstream
 ffmpeg
@@ -165,9 +168,10 @@ gdbm
 gdk-pixbuf2
 gdl
 gdm
+geckodriver
 gedit
 gedit-code-assistance
-geoclue2
+geoclue
 geocode-glib
 geoip
 geoip-database
@@ -185,6 +189,7 @@ glib2
 glib2-docs
 glibc
 glibmm
+glslang
 glu
 gmime
 gmime3
@@ -209,6 +214,7 @@ gnome-devel-docs
 gnome-dictionary
 gnome-disk-utility
 gnome-documents
+gnome-epub-thumbnailer
 gnome-font-viewer
 gnome-getting-started-docs
 gnome-keyring
@@ -286,6 +292,7 @@ guile2.0
 gupnp
 gupnp-av
 gupnp-dlna
+gupnp-igd
 gvfs
 gvfs-afc
 gvfs-goa
@@ -310,6 +317,7 @@ i7z
 iagno
 iana-etc
 ibus
+icon-slicer
 icu
 idnkit
 ijs
@@ -392,6 +400,7 @@ libcups
 libdaemon
 libdatrie
 libdazzle
+libdbusmenu-glib
 libdc1394
 libdca
 libdmapsharing
@@ -418,7 +427,6 @@ libfbclient
 libfdk-aac
 libffi
 libfontenc
-libfprint
 libfreehand
 libgcrypt
 libgda
@@ -462,6 +470,7 @@ liblangtag
 libldap
 liblouis
 libmad
+libmanette
 libmatroska
 libmediaart
 libmm-glib
@@ -479,7 +488,9 @@ libmusicbrainz5
 libmwaw
 libnautilus-extension
 libndp
+libnetfilter_conntrack
 libnewt
+libnfnetlink
 libnfs
 libnftnl
 libnghttp2
@@ -487,7 +498,6 @@ libnice
 libnl
 libnm
 libnm-glib
-libnm-gtk
 libnma
 libnotify
 libnsl
@@ -542,7 +552,6 @@ libssh2
 libstaroffice
 libstemmer
 libsynctex
-libsystemd
 libtar
 libtasn1
 libteam
@@ -646,6 +655,7 @@ man-pages
 mdadm
 mesa
 mesa-demos
+meson
 minizip
 mjpegtools
 mkinitcpio
@@ -669,7 +679,9 @@ netcdf
 netctl
 nettle
 networkmanager
+networkmanager-openvpn
 nghttp2
+ninja
 nm-connection-editor
 nmap
 node-gyp
@@ -691,6 +703,7 @@ openresolv
 openssh
 openssl
 openssl-1.0
+openvpn
 opus
 orc
 orca
@@ -721,6 +734,7 @@ phodav
 pinentry
 pipewire
 pixman
+pkcs11-helper
 pkgconf
 polari
 polkit
@@ -735,6 +749,7 @@ psmisc
 pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
+pycharm-community-edition
 pygobject-devel
 pygobject2-devel
 pygtk
@@ -795,6 +810,7 @@ python-pytest-shutil
 python-pytest-virtualenv
 python-pytz
 python-requests
+python-selenium
 python-setuptools
 python-simplejson
 python-six
@@ -814,6 +830,7 @@ python-wcwidth
 python-whoosh
 python-wrapt
 python-xdg
+python-zipp
 python-zope-interface
 python2
 python2-apipkg
@@ -826,6 +843,7 @@ python2-backports.os
 python2-cairo
 python2-cffi
 python2-click
+python2-configparser
 python2-constantly
 python2-contextlib2
 python2-dbus
@@ -866,12 +884,17 @@ python2-six
 python2-termcolor
 python2-twisted
 python2-virtualenv
+python2-zipp
 python2-zope-interface
 qbittorrent
 qqwing
 qt4
 qt5-base
+qt5-declarative
+qt5-location
 qt5-svg
+qt5-webchannel
+qt5-webengine
 qt5-x11extras
 quadrapassel
 raptor
@@ -908,6 +931,7 @@ seahorse
 sed
 semver
 serf
+shaderc
 shadow
 shared-color-targets
 shared-mime-info
@@ -922,6 +946,7 @@ speech-dispatcher
 speex
 speexdsp
 spice-gtk
+spirv-tools
 sqlite
 srt
 startup-notification
@@ -934,6 +959,7 @@ sysfsutils
 sysprof
 sysstat
 systemd
+systemd-libs
 systemd-sysvcompat
 t1lib
 taglib
@@ -1011,6 +1037,7 @@ xcb-util-image
 xcb-util-keysyms
 xcb-util-renderutil
 xcb-util-wm
+xcursor-themes
 xdg-dbus-proxy
 xdg-desktop-portal
 xdg-desktop-portal-gtk
@@ -1086,5 +1113,10 @@ zip
 zita-alsa-pcmi
 zita-resampler
 zlib
+zsh
+zsh-autosuggestions
+zsh-completions
+zsh-history-substring-search
+zsh-syntax-highlighting
 zstd
 zvbi
