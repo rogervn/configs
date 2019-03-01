@@ -48,6 +48,9 @@ fi
 # default editor
 EDITOR=vim
 
+
+# Ctrl-backspace delete word backwards
+bindkey '^H' backward-kill-word
 # Uses a single tmux session everytime if tmux is installed and
 # shell is interactive
 if [[ $- == *i* ]] && which tmux >/dev/null 2>&1; then
