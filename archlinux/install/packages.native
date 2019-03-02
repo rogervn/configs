@@ -80,6 +80,7 @@ cogl
 colord
 colord-gtk
 compiler-rt
+confuse
 coreutils
 cpio
 cracklib
@@ -102,6 +103,7 @@ djvulibre
 dleyna-connector-dbus
 dleyna-core
 dleyna-server
+dmenu
 dmraid
 dnssec-anchors
 docbook-xml
@@ -171,6 +173,7 @@ gdm
 geckodriver
 gedit
 gedit-code-assistance
+gendesk
 geoclue
 geocode-glib
 geoip
@@ -215,6 +218,7 @@ gnome-dictionary
 gnome-disk-utility
 gnome-documents
 gnome-epub-thumbnailer
+gnome-flashback
 gnome-font-viewer
 gnome-getting-started-docs
 gnome-keyring
@@ -229,6 +233,7 @@ gnome-nettool
 gnome-nibbles
 gnome-online-accounts
 gnome-online-miners
+gnome-panel
 gnome-robots
 gnome-screenshot
 gnome-session
@@ -251,6 +256,7 @@ gnome-weather
 gnupg
 gnutls
 go
+gobject-introspection
 gobject-introspection-runtime
 gom
 goocanvas
@@ -313,6 +319,8 @@ hunspell
 hunspell-en_US
 hwids
 hyphen
+i3-wm
+i3status
 i7z
 iagno
 iana-etc
@@ -488,6 +496,7 @@ libmusicbrainz5
 libmwaw
 libnautilus-extension
 libndp
+libnet
 libnetfilter_conntrack
 libnewt
 libnfnetlink
@@ -534,6 +543,7 @@ librevenge
 librsvg
 libsamplerate
 libsasl
+libsass
 libseccomp
 libsecret
 libshout
@@ -656,6 +666,7 @@ mdadm
 mesa
 mesa-demos
 meson
+metacity
 minizip
 mjpegtools
 mkinitcpio
@@ -763,6 +774,7 @@ python-atspi
 python-attrs
 python-automat
 python-babel
+python-beaker
 python-cairo
 python-chardet
 python-click
@@ -784,6 +796,7 @@ python-jedi
 python-jinja
 python-lazy-object-proxy
 python-lxml
+python-mako
 python-markupsafe
 python-mccabe
 python-mock
@@ -922,6 +935,7 @@ rubygems
 run-parts
 rygel
 s-nail
+sassc
 sbc
 schroedinger
 sdl
@@ -1033,10 +1047,12 @@ xautomation
 xbindkeys
 xcb-proto
 xcb-util
+xcb-util-cursor
 xcb-util-image
 xcb-util-keysyms
 xcb-util-renderutil
 xcb-util-wm
+xcb-util-xrm
 xcursor-themes
 xdg-dbus-proxy
 xdg-desktop-portal
