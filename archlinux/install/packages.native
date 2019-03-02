@@ -36,11 +36,13 @@ autoconf-archive
 autogen
 automake
 avahi
+awesome-terminal-fonts
 baobab
 bash
 bind-tools
 binutils
 bison
+blueman
 bluez
 bluez-libs
 bluez-utils
@@ -181,6 +183,7 @@ geoip-database
 gettext
 gfbgraph
 ghostscript
+giblib
 giflib
 git
 gitg
@@ -320,6 +323,7 @@ hunspell-en_US
 hwids
 hyphen
 i3-wm
+i3lock
 i3status
 i7z
 iagno
@@ -330,6 +334,7 @@ icu
 idnkit
 ijs
 ilmbase
+imagemagick
 imlib2
 inetutils
 intel-ucode
@@ -477,7 +482,9 @@ libksba
 liblangtag
 libldap
 liblouis
+liblqr
 libmad
+libmagick
 libmanette
 libmatroska
 libmediaart
@@ -537,6 +544,7 @@ libpwquality
 libquvi
 libquvi-scripts
 libqxp
+libraqm
 libraw1394
 libreoffice-fresh
 librevenge
@@ -754,6 +762,8 @@ poppler-data
 poppler-glib
 popt
 portaudio
+powerline-common
+powerline-fonts
 procps-ng
 protobuf
 psmisc
@@ -801,6 +811,7 @@ python-markupsafe
 python-mccabe
 python-mock
 python-more-itertools
+python-netifaces
 python-packaging
 python-parso
 python-path.py
@@ -809,6 +820,7 @@ python-pexpect
 python-pickleshare
 python-pluggy
 python-prompt_toolkit
+python-psutil
 python-ptyprocess
 python-py
 python-pycodestyle
@@ -843,6 +855,7 @@ python-wcwidth
 python-whoosh
 python-wrapt
 python-xdg
+python-yaml
 python-zipp
 python-zope-interface
 python2
@@ -938,6 +951,7 @@ s-nail
 sassc
 sbc
 schroedinger
+scrot
 sdl
 sdl2
 sdl_image
