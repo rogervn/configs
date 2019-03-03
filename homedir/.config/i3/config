@@ -174,13 +174,15 @@ bindsym $mod+r mode "resize"
 # Useful apps
 bindsym $mod+b exec firefox
 bindsym $mod+c exec gnome-calculator
-bindsym $mod+z exec nautilus
+bindsym $mod+z exec xdg-open
 bindsym $mod+g exec gnome-control-center
 bindsym $mod+q exec i3lock-fancy -p -n
 
 # Status bar
 bar {
-        status_command bumblebee-status -t gruvbox-powerline -m amixer arch-update battery bluetooth datetime disk nic ping weather xrandr -p datetime.format="%a, %F %H:%M" disk.format="{path} {percent:02.0f}%"
+        status_command bumblebee-status -t greyish-powerline \
+          -m weather nic publicip ping traffic sensors cpu arch-update disk datetime battery \
+          -p datetime.format="%a, %F %H:%M" disk.format="{path} {percent:02.0f}%"
 } 
 
 # Shutdown menu

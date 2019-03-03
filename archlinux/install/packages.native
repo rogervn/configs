@@ -697,6 +697,7 @@ net-tools
 netcdf
 netctl
 nettle
+network-manager-applet
 networkmanager
 networkmanager-openvpn
 nghttp2
