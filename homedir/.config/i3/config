@@ -181,10 +181,10 @@ bindsym $mod+l exec i3lock-fancy -p -n
 # Status bar
 bar {
         position top
+        font pango: Inconsolata for Powerline, FontAwesome 10
         status_command bumblebee-status -t greyish-powerline \
           -m weather nic publicip ping traffic sensors cpu arch-update disk datetime battery \
-          -p datetime.format="%a, %F %H:%M" disk.format="{path} {percent:02.0f}%" \
-             weather.location=London
+          -p datetime.format="%a, %F %H:%M" weather.location=London
 } 
 
 # Shutdown menu
