@@ -176,7 +176,7 @@ bindsym $mod+b exec firefox
 bindsym $mod+c exec gnome-calculator
 bindsym $mod+z exec xdg-open
 bindsym $mod+g exec gnome-control-center
-bindsym $mod+l exec i3lock-fancy -p -n
+bindsym $mod+l exec i3lock-fancy -p -n && sleep 2 && xset dpms force off
 
 # Status bar
 bar {
@@ -188,7 +188,7 @@ bar {
 } 
 
 # Shutdown menu
-set $Locker i3lock-fancy -p -n && sleep 1
+set $Locker i3lock-fancy -p -n && sleep 1 && xset dpms force off
 
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
