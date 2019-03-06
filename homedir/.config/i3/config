@@ -178,13 +178,20 @@ bindsym $mod+z exec xdg-open
 bindsym $mod+g exec gnome-control-center
 bindsym $mod+l exec i3lock-fancy -p -n && sleep 2 && xset dpms force off
 
+# Move workspace between displays
+bindsum $mod+Ctrl+Left move workspace to output left
+bindsum $mod+Ctrl+Right move workspace to output right
+bindsum $mod+Ctrl+Up move workspace to output up
+bindsum $mod+Ctrl+Down move workspace to output down
+
 # Status bar
 bar {
         position top
-        font pango: Inconsolata for Powerline, FontAwesome 10
+        font pango: Awesome, DejaVu Sans Mono 10
         status_command bumblebee-status -t greyish-powerline \
-          -m weather nic publicip ping traffic sensors cpu arch-update disk datetime battery \
-          -p datetime.format="%a, %F %H:%M" weather.location=London
+          -m weather nic publicip ping traffic sensors cpu disk datetime battery \
+          -p datetime.format="%a, %F %H:%M" datetime.left-click=gsimplecal \
+             weather.location=London
 } 
 
 # Shutdown menu
@@ -204,5 +211,5 @@ mode "$mode_system" {
     bindsym Escape mode "default"
 }
 
-bindsym $mod+Pause mode "$mode_system"
+bindsym $mod+k mode "$mode_system"
 

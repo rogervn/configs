@@ -276,6 +276,7 @@ groff
 grub
 gsettings-desktop-schemas
 gsfonts
+gsimplecal
 gsm
 gsound
 gspell
@@ -730,6 +731,7 @@ orca
 os-prober
 osinfo-db
 ostree
+otf-font-awesome
 p11-kit
 pacman
 pacman-contrib
