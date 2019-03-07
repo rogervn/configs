@@ -174,7 +174,7 @@ bindsym $mod+r mode "resize"
 # Useful apps
 bindsym $mod+b exec firefox
 bindsym $mod+c exec gnome-calculator
-bindsym $mod+z exec xdg-open
+bindsym $mod+z exec xdg-open ~
 bindsym $mod+g exec gnome-control-center
 bindsym $mod+l exec i3lock-fancy -p -n && sleep 2 && xset dpms force off
 
