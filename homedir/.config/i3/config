@@ -179,10 +179,10 @@ bindsym $mod+g exec gnome-control-center
 bindsym $mod+l exec i3lock-fancy -p -n && sleep 2 && xset dpms force off
 
 # Move workspace between displays
-bindsum $mod+Ctrl+Left move workspace to output left
-bindsum $mod+Ctrl+Right move workspace to output right
-bindsum $mod+Ctrl+Up move workspace to output up
-bindsum $mod+Ctrl+Down move workspace to output down
+bindsym $mod+Ctrl+Left move workspace to output left
+bindsym $mod+Ctrl+Right move workspace to output right
+bindsym $mod+Ctrl+Up move workspace to output up
+bindsym $mod+Ctrl+Down move workspace to output down
 
 # Status bar
 bar {
