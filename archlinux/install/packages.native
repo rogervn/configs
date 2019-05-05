@@ -3,6 +3,7 @@ aalib
 accerciser
 accountsservice
 acl
+adobe-source-code-pro-fonts
 adobe-source-sans-pro-fonts
 adwaita-icon-theme
 aisleriot
@@ -39,6 +40,7 @@ avahi
 awesome-terminal-fonts
 baobab
 bash
+bc
 bind-tools
 binutils
 bison
@@ -48,6 +50,7 @@ bluez-libs
 bluez-utils
 bolt
 boost-libs
+botan
 brasero
 brltty
 brotli
@@ -71,6 +74,7 @@ celt
 celt0.5.1
 cheese
 chromaprint
+chrome-gnome-shell
 cifs-utils
 clang
 clucene
@@ -88,6 +92,8 @@ cpio
 cracklib
 cryptsetup
 ctags
+cups
+cups-filters
 cups-pk-helper
 curl
 db
@@ -113,6 +119,7 @@ docbook-xsl
 dosfstools
 dotconf
 double-conversion
+doxygen
 dvd+rw-tools
 e2fsprogs
 efibootmgr
@@ -156,10 +163,11 @@ four-in-a-row
 freeglut
 freerdp
 freetype2
+frei0r-plugins
 fribidi
 fuse-common
 fuse2
-gamin
+gavl
 gawk
 gc
 gcab
@@ -174,7 +182,6 @@ gdl
 gdm
 geckodriver
 gedit
-gedit-code-assistance
 gendesk
 geoclue
 geocode-glib
@@ -238,6 +245,7 @@ gnome-online-accounts
 gnome-online-miners
 gnome-panel
 gnome-robots
+gnome-screensaver
 gnome-screenshot
 gnome-session
 gnome-settings-daemon
@@ -255,6 +263,7 @@ gnome-todo
 gnome-tweaks
 gnome-user-docs
 gnome-user-share
+gnome-video-effects
 gnome-weather
 gnupg
 gnutls
@@ -330,9 +339,7 @@ i7z
 iagno
 iana-etc
 ibus
-icon-slicer
 icu
-idnkit
 ijs
 ilmbase
 imagemagick
@@ -366,7 +373,6 @@ json-glib
 jsoncpp
 jsonrpc-glib
 kbd
-keepassx
 keepassxc
 keyutils
 kmod
@@ -417,6 +423,7 @@ libdazzle
 libdbusmenu-glib
 libdc1394
 libdca
+libde265
 libdmapsharing
 libdmx
 libdrm
@@ -466,6 +473,7 @@ libgudev
 libgusb
 libgweather
 libgxps
+libhandy
 libibus
 libical
 libice
@@ -484,8 +492,8 @@ liblangtag
 libldap
 liblouis
 liblqr
+liblrdf
 libmad
-libmagick
 libmanette
 libmatroska
 libmediaart
@@ -669,8 +677,10 @@ lzo
 m4
 mailcap
 make
+mallard-ducktype
 man-db
 man-pages
+mariadb-libs
 mdadm
 mesa
 mesa-demos
@@ -758,6 +768,7 @@ pipewire
 pixman
 pkcs11-helper
 pkgconf
+playerctl
 polari
 polkit
 poppler
@@ -765,8 +776,8 @@ poppler-data
 poppler-glib
 popt
 portaudio
-powerline-common
-powerline-fonts
+postgresql-libs
+potrace
 procps-ng
 protobuf
 psmisc
@@ -810,6 +821,7 @@ python-jinja
 python-lazy-object-proxy
 python-lxml
 python-mako
+python-markdown
 python-markupsafe
 python-mccabe
 python-mock
@@ -846,6 +858,12 @@ python-snowballstemmer
 python-sphinx
 python-sphinx-alabaster-theme
 python-sphinx_rtd_theme
+python-sphinxcontrib-applehelp
+python-sphinxcontrib-devhelp
+python-sphinxcontrib-htmlhelp
+python-sphinxcontrib-jsmath
+python-sphinxcontrib-qthelp
+python-sphinxcontrib-serializinghtml
 python-sphinxcontrib-websupport
 python-sqlalchemy
 python-termcolor
@@ -916,8 +934,9 @@ python2-virtualenv
 python2-zipp
 python2-zope-interface
 qbittorrent
+qpdf
 qqwing
-qt4
+qrencode
 qt5-base
 qt5-declarative
 qt5-location
@@ -926,6 +945,7 @@ qt5-webchannel
 qt5-webengine
 qt5-x11extras
 quadrapassel
+quazip
 raptor
 rasqal
 re2
@@ -949,6 +969,8 @@ ruby-sass-listen
 ruby-yard
 rubygems
 run-parts
+rxvt-unicode
+rxvt-unicode-terminfo
 rygel
 s-nail
 sassc
@@ -1024,6 +1046,7 @@ ttf-ubuntu-font-family
 twolame
 tzdata
 udisks2
+unixodbc
 unzip
 upower
 usbmuxd
@@ -1093,7 +1116,6 @@ xorg-fonts-encodings
 xorg-fonts-misc
 xorg-iceauth
 xorg-luit
-xorg-mkfontdir
 xorg-mkfontscale
 xorg-server
 xorg-server-common
