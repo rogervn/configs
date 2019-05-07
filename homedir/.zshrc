@@ -53,6 +53,10 @@ EDITOR=vim
 # Ctrl-backspace kill word
 bindkey '^H' backward-kill-word
 
+# Home and End for urxvt
+bindkey "\e[8~" end-of-line
+bindkey "\e[7~" beginning-of-line
+
 # Uses a single tmux session everytime if tmux is installed and
 # shell is interactive
 #if [[ $- == *i* ]] && which tmux >/dev/null 2>&1; then
