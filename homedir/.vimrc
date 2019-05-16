@@ -26,3 +26,6 @@ set hlsearch
 
 " Colors
 colorscheme elflord
+
+" Compatibility for some terminals
+set term=xterm-256color
