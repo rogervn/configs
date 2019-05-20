@@ -1,7 +1,12 @@
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
-HISTSIZE=1000
-SAVEHIST=1000
+HISTSIZE=130000
+SAVEHIST=130000
+setopt HIST_FIND_NO_DUPS
+setopt HIST_IGNORE_ALL_DUPS
+setopt HIST_REDUCE_BLANKS
+setopt HIST_SAVE_NO_DUPS
+setopt INC_APPEND_HISTORY
 setopt appendhistory beep nomatch notify
 unsetopt autocd extendedglob
 bindkey -e
@@ -14,6 +19,9 @@ compinit
 promptinit
 # End of lines added by compinstall
 
+# VI style
+set -o vi
+
 # Theme (need prezto)
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir dir_writable vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
@@ -24,13 +32,6 @@ zstyle ':completion:*' menu select
 zstyle ':completion::complete:*' gain-privileges 1
 zstyle ':completion:*' rehash true
 setopt COMPLETE_ALIASES
-
-# History search
-autoload -Uz up-line-or-beginning-search down-line-or-beginning-search
-zle -N up-line-or-beginning-search
-zle -N down-line-or-beginning-search
-[[ -n "$key[Up]"   ]] && bindkey -- "$key[Up]"   up-line-or-beginning-search
-[[ -n "$key[Down]" ]] && bindkey -- "$key[Down]" down-line-or-beginning-search
 
 # xterm-like title
 autoload -Uz add-zsh-hook
@@ -47,6 +48,9 @@ if [[ "$TERM" == (screen*|xterm*|rxvt*) ]]; then
 	add-zsh-hook -Uz preexec xterm_title_preexec
 fi
 
+# fzf key-bindings
+source /usr/share/fzf/shell/key-bindings.zsh
+
 # default editor
 EDITOR=vim
 
@@ -56,6 +60,9 @@ bindkey '^H' backward-kill-word
 # Home and End for rxvt
 bindkey "\e[8~" end-of-line
 bindkey "\e[7~" beginning-of-line
+
+# Ctrl-backspace delete word backwards
+bindkey '^H' backward-kill-word
 
 # Uses a single tmux session everytime if tmux is installed and
 # shell is interactive
