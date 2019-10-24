@@ -30,7 +30,7 @@ font pango:monospace 10
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec terminator
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -172,6 +172,7 @@ bindsym $mod+r mode "resize"
 
 ## My personal mods
 # Useful apps
+bindsym $mod+q exec gpaste-client ui
 bindsym $mod+b exec firefox
 bindsym $mod+c exec gnome-calculator
 bindsym $mod+z exec xdg-open ~
@@ -187,7 +188,7 @@ bindsym $mod+Ctrl+Down move workspace to output down
 # Status bar
 bar {
         position top
-        font pango: Awesome, DejaVu Sans Mono 10
+        font pango: Awesome, DejaVu Sans Mono 9
         status_command bumblebee-status -t greyish-powerline \
           -m weather nic publicip ping traffic sensors cpu disk datetime battery \
           -p datetime.format="%a, %F %H:%M" datetime.left-click=gsimplecal \

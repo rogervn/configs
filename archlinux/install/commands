@@ -19,13 +19,7 @@ passwd rogervn
 # After installing util-linux
 systemctl enable fstrim.timer
 
-# Install yaourt (as user)
-mkdir build
-cd build
-git clone https://aur.archlinux.org/package-query.git
-cd package-query/
-makepkg -si
-cd ..
-git clone https://aur.archlinux.org/yaourt.git
-cd yaourt
+# install yay
+git clone https://aur.archlinux.org/yay.git
+cd yay
 makepkg -si
