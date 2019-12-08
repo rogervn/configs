@@ -916,6 +916,7 @@ rest
 rofi
 rpcbind
 rpmextract
+rsync
 rtkit
 rtmpdump
 ruby
@@ -968,6 +969,7 @@ sudo
 sushi
 sway
 swaybg
+swayidle
 swaylock
 swell-foop
 sysfsutils
