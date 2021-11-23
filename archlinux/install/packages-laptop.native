@@ -29,6 +29,7 @@ babl
 baobab
 base
 bash
+bind
 binutils
 bison
 blas
@@ -283,6 +284,7 @@ less
 libabw
 libaio
 libao
+libappindicator-gtk3
 libarchive
 libass
 libassuan
@@ -317,6 +319,8 @@ libcups
 libdaemon
 libdatrie
 libdazzle
+libdbusmenu-glib
+libdbusmenu-gtk3
 libdc1394
 libdca
 libde265
@@ -371,6 +375,7 @@ libidn2
 libiec61883
 libieee1284
 libimobiledevice
+libindicator-gtk3
 libinih
 libinput
 libinstpatch
@@ -387,6 +392,7 @@ liblouis
 liblqr
 liblrdf
 libmanette
+libmaxminddb
 libmd
 libmediaart
 libmfx
@@ -401,7 +407,9 @@ libmspub
 libmtp
 libmwaw
 libnautilus-extension
+libndp
 libnetfilter_conntrack
+libnewt
 libnfnetlink
 libnfs
 libnftnl
@@ -427,6 +435,7 @@ libpaper
 libpcap
 libpciaccess
 libpeas
+libpgm
 libphonenumber
 libplist
 libpng
@@ -451,6 +460,7 @@ libsigc++
 libslirp
 libsm
 libsndfile
+libsodium
 libsoup
 libsoup3
 libsoxr
@@ -464,6 +474,7 @@ libstaroffice
 libstemmer
 libsynctex
 libtasn1
+libteam
 libthai
 libtheora
 libtiff
@@ -476,6 +487,7 @@ liburing
 libusb
 libusbmuxd
 libutempter
+libuv
 libva
 libvdpau
 libvirt
@@ -564,6 +576,8 @@ ndctl
 neon
 net-snmp
 nettle
+network-manager-applet
+networkmanager
 nm-connection-editor
 noto-fonts-emoji
 npth
@@ -629,6 +643,7 @@ python-idna
 python-importlib-metadata
 python-markdown
 python-netifaces
+python-ply
 python-psutil
 python-pyxdg
 python-requests
@@ -660,6 +675,7 @@ shadow
 shared-color-targets
 shared-mime-info
 simple-scan
+slang
 smbclient
 snappy
 sord
@@ -792,6 +808,7 @@ yelp
 yelp-xsl
 zbar
 zenity
+zeromq
 zimg
 zip
 zita-alsa-pcmi
