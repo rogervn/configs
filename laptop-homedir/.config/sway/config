@@ -151,7 +151,7 @@ bar {
         status_command bumblebee-status -t greyish-powerline \
           -m weather nic publicip ping traffic sensors cpu disk datetime battery \
           -p datetime.format="%a, %F %H:%M" datetime.left-click=gsimplecal \
-             weather.location=London
+             weather.location=London cpu.format='{:4.1f}%' traffic.format='{:7.2f}'
 } 
 
 # Shutdown menu
