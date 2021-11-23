@@ -3,4 +3,6 @@ Name=wlp2s0
 
 [Network]
 DHCP=yes
-UseDns=yes
+
+[DHCPv4]
+UseDNS=yes

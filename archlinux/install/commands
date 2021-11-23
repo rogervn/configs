@@ -5,9 +5,11 @@ hwclock --systohc
 # After configuring locale files
 locale-gen
 
-# Configure wpa_supplicant and systemd-network
-wpa_passphrase $SSID $WPA_PSK > /etc/wpa_supplicant/$SSID.conf
+# Configure wpa_supplicant and systemd-network (for wlp2s0)
+wpa_passphrase $SSID $WPA_PSK > /etc/wpa_supplicant/wpa_supplicant-wlp2s0.conf
+systemctl enable wpa_supplicant@wlp2s0
 systemctl enable systemd-networkd
+systemctl enable systemd-resolved
 
 # After installinf refind and intel/amd-ucode
 # Edit /boot/refind_linux.cong with PARTID and ucode
