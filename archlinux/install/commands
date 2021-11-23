@@ -5,15 +5,19 @@ hwclock --systohc
 # After configuring locale files
 locale-gen
 
-# Enable auto dhcp
-systemctl enable dhcpcd
+# Configure wpa_supplicant and systemd-network
+wpa_passphrase $SSID $WPA_PSK > /etc/wpa_supplicant/$SSID.conf
+systemctl enable systemd-networkd
 
-# After installing grub
-grub-install --target=i386-pc --debug --boot-directory=/boot/ /dev/vda
-grub-mkconfig -o /boot/grub/grub.cfg
+# After installinf refind and intel/amd-ucode
+# Edit /boot/refind_linux.cong with PARTID and ucode
+
+# re-populate keys
+pacman-key --init
+pacman-key --populate archlinux
 
 # Common user
-useradd -m -g users -G wheel -s /bin/bash rogervn
+useradd -m -g users -G wheel -s /bin/bash rogervnUai-Fi
 passwd rogervn
 
 # After installing util-linux

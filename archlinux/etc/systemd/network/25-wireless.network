@@ -1,0 +1,6 @@
+[Match]
+Name=wlp2s0
+
+[Network]
+DHCP=yes
+UseDns=yes
