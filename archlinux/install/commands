@@ -17,7 +17,7 @@ pacman-key --init
 pacman-key --populate archlinux
 
 # Common user
-useradd -m -g users -G wheel -s /bin/bash rogervnUai-Fi
+useradd -m -g users -G wheel -s /bin/bash rogervn
 passwd rogervn
 
 # After installing util-linux
