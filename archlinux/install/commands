@@ -8,7 +8,6 @@ locale-gen
 
 # Configure NetworkManager
 systemctl enable NetworkManager
-systemctl enable systemd-resolved
 
 # After installinf refind and intel/amd-ucode
 # Edit /boot/refind_linux.cong with PARTID and ucode

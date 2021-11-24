@@ -25,6 +25,7 @@ audit
 autoconf
 automake
 avahi
+awesome-terminal-fonts
 babl
 baobab
 base
@@ -137,7 +138,6 @@ gdk-pixbuf2
 gdm
 gedit
 gegl
-gendesk
 geoclue
 geocode-glib
 gettext
@@ -192,7 +192,6 @@ gnome-weather
 gnu-free-fonts
 gnupg
 gnutls
-go
 gobject-introspection-runtime
 gom
 gpgme
@@ -483,6 +482,7 @@ libtommath
 libtool
 libunistring
 libunwind
+liburcu
 liburing
 libusb
 libusbmuxd
@@ -625,6 +625,8 @@ poppler-glib
 popt
 portaudio
 power-profiles-daemon
+powerline-common
+powerline-fonts
 procps-ng
 protobuf
 psmisc
@@ -637,7 +639,6 @@ python-cairo
 python-chardet
 python-configobj
 python-dnspython
-python-docutils
 python-gobject
 python-idna
 python-importlib-metadata
@@ -727,7 +728,6 @@ tracker3
 tracker3-miners
 ttf-dejavu
 ttf-droid
-ttf-font-awesome
 ttf-inconsolata
 ttf-liberation
 ttf-ubuntu-font-family
@@ -788,11 +788,9 @@ xfsprogs
 xkeyboard-config
 xmlsec
 xorg-fonts-encodings
-xorg-mkfontscale
 xorg-server
 xorg-server-common
 xorg-setxkbmap
-xorg-xcursorgen
 xorg-xhost
 xorg-xkbcomp
 xorg-xmodmap
