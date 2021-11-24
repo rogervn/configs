@@ -141,11 +141,12 @@ bindsym $mod+Ctrl+Down move workspace to output down
 # Status bar
 bar {
         position top
-        font pango: Awesome, DejaVu Sans Mono 9
+        font pango: Droid Mono for Powerline 9
         status_command bumblebee-status -t greyish-powerline \
-          -m weather publicip ping traffic sensors cpu disk pasink datetime\
+          -m weather nic publicip ping traffic sensors cpu disk pasink datetime\
           -p datetime.format="%a, %F %H:%M" datetime.left-click=gsimplecal \
-             weather.location=London cpu.format='{:4.1f}%' traffic.format='{:7.2f}'
+             weather.location=London cpu.theme.minwidth=15 \
+             traffic.theme.minwidth=0,20,20
 } 
 
 # Shutdown menu

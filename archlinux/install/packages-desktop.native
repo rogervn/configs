@@ -27,6 +27,7 @@ audit
 autoconf
 automake
 avahi
+awesome-terminal-fonts
 babl
 baobab
 base
@@ -187,6 +188,7 @@ gnome-software
 gnome-system-monitor
 gnome-terminal
 gnome-themes-extra
+gnome-tweaks
 gnome-user-docs
 gnome-user-share
 gnome-video-effects
@@ -208,6 +210,7 @@ grilo-plugins
 groff
 gsettings-desktop-schemas
 gsfonts
+gsimplecal
 gsm
 gsound
 gspell
@@ -267,6 +270,7 @@ jack2
 jansson
 jasper
 jbig2dec
+jq
 js78
 json-c
 json-glib
@@ -586,6 +590,7 @@ npth
 nspr
 nss
 numactl
+oniguruma
 openal
 opencore-amr
 openexr
@@ -606,6 +611,7 @@ pango
 pangomm
 parted
 patch
+pavucontrol
 pciutils
 pcre
 pcre2
@@ -627,6 +633,8 @@ poppler-glib
 popt
 portaudio
 power-profiles-daemon
+powerline-common
+powerline-fonts
 procps-ng
 protobuf
 psmisc
