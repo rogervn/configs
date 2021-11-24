@@ -118,12 +118,6 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available)
-#bar {
-#        status_command i3status
-#}
-
 # Gaps
 gaps inner 3
 
@@ -131,9 +125,9 @@ gaps inner 3
 exec wl-paste -t text --watch clipman store
 
 # Useful apps
-bindsym $mod+q exec clipman pick -t rofi
+bindsym $mod+c exec clipman pick -t rofi
 bindsym $mod+b exec 'MOZ_ENABLE_WAYLAND=1 firefox'
-#bindsym $mod+c exec gnome-calculator
+bindsym $mod+q exec gnome-calculator
 bindsym $mod+z exec xdg-open ~
 bindsym $mod+g exec gnome-control-center
 bindsym $mod+l exec $locker
@@ -149,9 +143,9 @@ bar {
         position top
         font pango: Awesome, DejaVu Sans Mono 9
         status_command bumblebee-status -t greyish-powerline \
-          -m weather nic publicip ping traffic sensors cpu disk datetime battery \
+          -m weather publicip ping traffic sensors cpu disk pasink datetime\
           -p datetime.format="%a, %F %H:%M" datetime.left-click=gsimplecal \
-             weather.location=London
+             weather.location=London cpu.format='{:4.1f}%' traffic.format='{:7.2f}'
 } 
 
 # Shutdown menu
@@ -183,16 +177,13 @@ exec swayidle -w \
     before-sleep $locker
 
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% #increase sound volume
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% #decrease sound volume
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle # mute sound
 
 # Sreen brightness controls
 bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
 bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
-
-# Touchpad controls
-#bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
 
 # Media player controls
 bindsym XF86AudioPlay exec playerctl play
@@ -200,10 +191,13 @@ bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
-# Outputs and inputs
-output 'Dell Inc. DELL P2317H 4WY7076L06QB' bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+# Floating windows app-specific
+for_window [app_id="gnome-calculator"] floating enable
+for_window [app_id="pavucontrol"] floating enable
+for_window [window_role="pop-up"] floating enable
 
-input '1133:16475:Logitech_K780' {
-    xkb_layout us
-    xkb_variant intl
-}
+# Toggle Floating and Tiling for focus window
+bindsym $mod+Shift+f floating toggle
+
+# Include modules on config.d
+include config.d/*.conf
