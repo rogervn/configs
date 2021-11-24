@@ -3,6 +3,7 @@ ln -sf /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime
 hwclock --systohc
 
 # After configuring locale files
+# Edit /etc/locale with LANG=
 locale-gen
 
 # Configure NetworkManager
@@ -11,6 +12,7 @@ systemctl enable systemd-resolved
 
 # After installinf refind and intel/amd-ucode
 # Edit /boot/refind_linux.cong with PARTID and ucode
+# Edit /efi/EFI/refind/refind.conf to have extra_kernel_version_strings
 
 # re-populate keys
 pacman-key --init
@@ -22,6 +24,9 @@ passwd rogervn
 
 # After installing util-linux
 systemctl enable fstrim.timer
+
+# After installing gnome
+systemctl enable gdm
 
 # install yay
 git clone https://aur.archlinux.org/yay.git
