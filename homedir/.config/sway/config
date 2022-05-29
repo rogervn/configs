@@ -170,13 +170,13 @@ mode "$mode_system" {
 bindsym $mod+k mode "$mode_system"
 
 # Idle
-set $lock_and_screen_off 'swaylock -e -f -c 000000 && swaymsg "output * dpms off"'
 exec swayidle -w \
     timeout 15 'if pgrep -x swaylock; then swaymsg "output * dpms off"; fi' \
-        resume 'swaymsg "output * dpms on"' \
-    timeout 900 $lock_and_screen_off \
-        resume 'swaymsg "output * dpms on"' \
-    before-sleep $locker
+    resume 'swaymsg "output * dpms on"' \
+    timeout 900 '$locker' \
+    timeout 915 'swaymsg "output * dpms off"' \
+    resume 'swaymsg "output * dpms on"' \
+    before-sleep '$locker'
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% #increase sound volume
