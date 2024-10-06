@@ -214,5 +214,5 @@ bindsym $mod+Shift+f floating toggle
 include config.d/*.conf
 
 # start file sync if installed
-exec /usr/bin/bash -c '[ -f /usr/bin/owncloud ] && /usr/bin/owncloud &'
+exec /usr/bin/bash -c '[ -f /usr/bin/nextcloud ] && /usr/bin/nextcloud &'
 exec /usr/bin/bash -c '[ -f /usr/bin/dropbox ] && /usr/bin/dropbox &'
