@@ -25,7 +25,7 @@ set -o vi
 # Theme (need prezto)
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir dir_writable vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
-prompt powerlevel9k
+prompt powerlevel10k
 
 # Completion additions
 zstyle ':completion:*' menu select
@@ -49,7 +49,7 @@ if [[ "$TERM" == (screen*|xterm*|rxvt*) ]]; then
 fi
 
 # fzf key-bindings
-source /usr/share/fzf/shell/key-bindings.zsh
+source /usr/share/fzf/key-bindings.zsh
 
 # default editor
 EDITOR=vim
