@@ -21,9 +21,9 @@
         "battery",
         "battery#bat2",
         "tray",
-        "clock",
         "network",
         "bluetooth",
+        "clock",
         "custom/power"
     ],
     "hyprland/window": {
@@ -54,7 +54,7 @@
     "clock": {
         // "timezone": "America/New_York",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format": "{:%A %Y-%m-%d %H:%M}",
+        "format": "{:%a %d %b %H:%M}",
         "on-click": "gsimplecal"
     },
     "cpu": {
