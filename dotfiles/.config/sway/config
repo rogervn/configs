@@ -129,7 +129,7 @@ set $locker swaylock -e -f -c 000000
 
 bindsym $mod+c exec 'cliphist list | rofi -dmenu | cliphist decode | wl-copy'
 bindsym $mod+b exec 'MOZ_ENABLE_WAYLAND=1 firefox'
-bindsym $mod+e exec dolphin
+bindsym $mod+e exec nautilus
 bindsym $mod+l exec $locker
 
 # Move workspace between displays

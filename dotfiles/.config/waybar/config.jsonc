@@ -24,6 +24,7 @@
         "network",
         "bluetooth",
         "clock",
+        "custom/notifications",
         "custom/power"
     ],
     "hyprland/window": {
@@ -156,6 +157,13 @@
             "default": ["", "", ""]
         },
         "on-click": "pavucontrol"
+    },
+    "custom/notifications": {
+      "format": " {}",
+      "interval": 5,
+      "tooltip": false,
+      "exec": "swaync-client -c",
+      "on-click": "swaync-client -t"
     },
     "custom/power": {
       "format": " ",
