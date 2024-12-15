@@ -27,6 +27,9 @@ POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir dir_writable vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
 prompt powerlevel10k
 
+# Add wal sequences if file exist
+[ -f ~/.cache/wal/sequences ] && (cat ~/.cache/wal/sequences &)
+
 # Completion additions
 zstyle ':completion:*' menu select
 zstyle ':completion::complete:*' gain-privileges 1

@@ -1,8 +1,10 @@
+@import "../../.cache/wal/colors-waybar.css";
+
 * {
     border: none;
     font-family: Font Awesome, Roboto, Arial, sans-serif;
     font-size: 13px;
-    color: #ffffff;
+    color: @foreground;
     border-radius: 20px;
 }
 
@@ -15,16 +17,20 @@ window#waybar {
 }
 /*-----module groups----*/
 .modules-right {
-	background-color: rgba(0,43,51,0.85);
+	background-color: @background;
     margin: 2px 10px 0 0;
 }
 .modules-center {
     margin: 2px 10px 0 0;
-	background-color: rgba(0,0,0,0);
+    padding: 0px 10px;
+	background-color: @background;
 }
 .modules-left {
     margin: 2px 0 0 5px;
-	background-color: rgba(0,119,179,0.6);
+	background-color: @background;
+}
+window#waybar.empty .modules-center {
+    background-color: transparent;
 }
 /*-----modules indv----*/
 #workspaces button {
@@ -33,14 +39,14 @@ window#waybar {
 }
 #workspaces button:hover {
     box-shadow: inherit;
-	background-color: rgba(0,153,153,1);
+	background-color: @cursor;
 }
 
 #workspaces button.focused {
 	background-color: rgba(0,43,51,0.85);
 }
 #workspaces button.active {
-	background-color: rgba(0,43,51,0.85);
+	background-color: @color1;
 }
 
 #clock,
@@ -60,11 +66,11 @@ window#waybar {
     padding: 0 10px;
 }
 #mode {
-    color: #cc3436;
+    color: @color1;
     font-weight: bold;
 }
 #custom-power {
-    background-color: rgba(0,119,179,0.6);
+    background-color: @color1;
     border-radius: 100px;
     margin: 5px 5px;
     padding: 1px 1px 1px 6px;
