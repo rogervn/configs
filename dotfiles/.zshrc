@@ -67,6 +67,9 @@ bindkey "\e[7~" beginning-of-line
 # Ctrl-backspace delete word backwards
 bindkey '^H' backward-kill-word
 
+# Kitty terminfo fix on ssh
+[ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
+
 # Uses a single tmux session everytime if tmux is installed and
 # shell is interactive
 #if [[ $- == *i* ]] && which tmux >/dev/null 2>&1; then
