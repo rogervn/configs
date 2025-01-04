@@ -2,6 +2,7 @@
 HISTFILE=~/.histfile
 HISTSIZE=130000
 SAVEHIST=130000
+PATH=$PATH:/home/rogervn/go/bin:/home/rogervn/bin
 setopt HIST_FIND_NO_DUPS
 setopt HIST_IGNORE_ALL_DUPS
 setopt HIST_REDUCE_BLANKS
@@ -52,7 +53,8 @@ if [[ "$TERM" == (screen*|xterm*|rxvt*) ]]; then
 fi
 
 # fzf key-bindings
-source /usr/share/fzf/key-bindings.zsh
+[ -f /usr/share/fzf/key-bindings.zsh ] && source /usr/share/fzf/key-bindings.zsh
+[ -f /usr/share/fzf/shell/key-bindings.zsh ] && source /usr/share/fzf/shell/key-bindings.zsh
 
 # default editor
 EDITOR=vim
