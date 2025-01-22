@@ -1,9 +1,0 @@
-# 
-# /etc/fstab: static file system information
-#
-# <file system>	<dir>	<type>	<options>	<dump>	<pass>
-# /dev/sda4
-UUID=6a4b80f0-0753-4360-8dae-a8dd1c271fae	/         	ext4      	rw,relatime,data=ordered	0 1
-UUID=9ec3ade1-d4b1-4060-ac7e-1f0c46379b1a	none		swap		defaults			0 0
-/dev/sdb2					/data         	ext4      	rw,relatime,data=ordered	0 1
-/dev/sdb3					/deposito      	ntfs-3g      	uid=rogervn,gid=users,dmask=022,fmask=133	0 0
