@@ -112,8 +112,7 @@
         "format-ethernet": "{ipaddr}/{cidr} ",
         "tooltip-format": "{ifname} {ipaddr} ",
         "format-linked": "{ifname} (No IP) ",
-        "format-disconnected": "Disconnected ⚠",
-        "on-click": "~/.config/waybar/scripts/wifi-menu.sh"
+        "format-disconnected": "Disconnected ⚠"
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
