@@ -31,6 +31,11 @@ promptinit
 set -o vi
 
 # Theme (need prezto)
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/runcoms/zpreztorc"
+  source "${ZDOTDIR:-$HOME}/.zprezto/runcoms/zprofile"
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+fi
 prompt powerlevel10k
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
