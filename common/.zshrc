@@ -5,6 +5,14 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+# Theme (need prezto)
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/runcoms/zpreztorc"
+  source "${ZDOTDIR:-$HOME}/.zprezto/runcoms/zprofile"
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+fi
+prompt powerlevel10k
+
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=130000
@@ -29,14 +37,6 @@ promptinit
 
 # VI style
 set -o vi
-
-# Theme (need prezto)
-if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
-  source "${ZDOTDIR:-$HOME}/.zprezto/runcoms/zpreztorc"
-  source "${ZDOTDIR:-$HOME}/.zprezto/runcoms/zprofile"
-  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
-fi
-prompt powerlevel10k
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
