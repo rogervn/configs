@@ -1,6 +1,6 @@
 @define-color text            @foreground;
 @define-color background-alt  alpha(@color1, .4);
-@define-color selected        @color6;
+@define-color selected        @color3;
 @define-color hover           alpha(@selected, .4);
 @define-color urgent          @color2;
 
