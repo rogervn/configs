@@ -1,14 +1,10 @@
-/* 
-  bg - background
-  fg - foreground
-  br - border
-*/
-
 * {
-  main-fg:        #cdd6f4;
-  main-bg:        #11111b;
-  main-br:        #cdd6f4;
-  input-bg:       #181825;
-  select-bg:      #9399b2;
-  select-fg:      #11111b;
+    main-bg:            #11111be6;
+    main-fg:            #cdd6f4ff;
+    main-br:            #cba6f7ff;
+    main-ex:            #f5e0dcff;
+    select-bg:          #b4befeff;
+    select-fg:          #11111bff;
+    separatorcolor:     transparent;
+    border-color:       transparent;
 }

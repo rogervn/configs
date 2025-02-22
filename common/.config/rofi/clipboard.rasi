@@ -1,9 +1,10 @@
 @import "~/.config/rofi/config.rasi"
 
-configuration {
-    show-icons:           false;
+#window {
+    width:            800;
 }
 
-window {
-    width: 50%;
+#element {
+    padding: 1px ;
 }
+
