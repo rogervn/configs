@@ -137,7 +137,7 @@
       "format": " {}",
       "interval": 5,
       "tooltip": false,
-      "exec": "swaync-client -c",
+      "exec": "makoctl list | sed '/^\\s.*/d' | wc -l",
       "on-click": "swaync-client -t"
     },
     "custom/power": {
