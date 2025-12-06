@@ -62,8 +62,27 @@ if [[ "$TERM" == (screen*|xterm*|rxvt*) ]]; then
 fi
 
 # fzf key-bindings
-[ -f /usr/share/fzf/key-bindings.zsh ] && source /usr/share/fzf/key-bindings.zsh
-[ -f /usr/share/fzf/shell/key-bindings.zsh ] && source /usr/share/fzf/shell/key-bindings.zsh
+if [ -n "${commands[fzf-share]}" ]; then
+  source "$(fzf-share)/key-bindings.zsh"
+  source "$(fzf-share)/completion.zsh"
+fi
+
+# Home and End for rxvt
+bindkey "\e[8~" end-of-line
+bindkey "\e[7~" beginning-of-line
+
+# Ctrl-backspace delete word backwards
+bindkey '^H' backward-kill-word
+
+# Kitty terminfo fix on ssh
+[ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
+
+# ... (the rest of the tmux block, likely commented out)
+
+# --- FINAL FIX FOR TRAILING % ---
+# This must be the last command run to override any plugin/theme setting
+# of the Zsh End-Of-Line Mark variable.
+PROMPT_EOL_MARK=""
 
 # default editor
 EDITOR=vim
