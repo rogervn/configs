@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 WALLPAPER_DIR=~/.config/hypr/wallpaper
 DEFAULT_WALLPAPER_FILE=default.png
