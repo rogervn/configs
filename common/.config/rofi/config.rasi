@@ -1,4 +1,4 @@
-@import "~/.cache/wal/colors-rofi-dark"
+@import "./wallust-colors.rasi"
 
 * {
     font: "Jetbrains Mono 12";

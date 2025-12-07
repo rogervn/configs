@@ -42,7 +42,7 @@ set -o vi
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Add wal sequences if file exist
-[ -f ~/.cache/wal/sequences ] && (cat ~/.cache/wal/sequences &)
+[ -f ~/.cache/wallust/sequences ] && (cat ~/.cache/wallust/sequences &)
 
 # Completion additions
 zstyle ':completion:*' menu select

@@ -41,8 +41,8 @@ set -o vi
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# Add wal sequences if file exist
-[ -f ~/.cache/wal/sequences ] && (cat ~/.cache/wal/sequences &)
+# Add wallust sequences if file exist
+[ -f ~/.cache/wallust/sequences ] && (cat ~/.cache/wallust/sequences &)
 
 # Completion additions
 zstyle ':completion:*' menu select

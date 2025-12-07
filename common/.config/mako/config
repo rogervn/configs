@@ -30,7 +30,7 @@ max-visible=5
 layer=overlay
 anchor=top-right
 
-include=~/.cache/wal/colors-mako
+include=~/.config/mako/wallust-colors
 
 [urgency=low]
 default-timeout=2000
