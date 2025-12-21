@@ -1,0 +1,39 @@
+{
+  "bar.customModules.storage.paths": [
+    "/"
+  ],
+  "theme.font.name": "JetBrains Mono",
+  "theme.font.label": "JetBrains Mono Bold",
+  "bar.layouts": {
+    "*": {
+      "left": [
+        "dashboard",
+        "workspaces"
+      ],
+      "middle": [
+        "windowtitle"
+      ],
+      "right": [
+        "hypridle",
+        "volume",
+        "network",
+        "bluetooth",
+        "battery",
+        "systray",
+        "clock",
+        "notifications",
+        "power"
+      ]
+    }
+  },
+  "theme.bar.buttons.radius": "1em",
+  "theme.bar.buttons.padding_x": "1rem",
+  "theme.bar.menus.monochrome": false,
+  "theme.bar.transparent": true,
+  "bar.workspaces.show_numbered": true,
+  "bar.clock.format": "%a %d %b  %H:%M",
+  "bar.launcher.autoDetectIcon": true,
+  "bar.notifications.show_total": true,
+  "bar.network.showWifiInfo": true,
+  "bar.workspaces.show_icons": false
+}
