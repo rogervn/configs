@@ -48,4 +48,5 @@ waybar = { template = 'waybar.css', target = '~/.config/waybar/wallust-colors.cs
 rofi = { template = 'rofi.rasi', target = '~/.config/rofi/wallust-colors.rasi' }
 mako = { template = 'mako', target = '~/.config/mako/wallust-colors' }
 hyprland = { template = 'hyprland.conf', target = '~/.config/hypr/wallust-colors.conf' }
+hyprpanel = { template = 'hyprpanel.json', target = '~/.config/hyprpanel/wallust-colors.json' }
 
