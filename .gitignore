@@ -1,1 +1,5 @@
 wallust-colors*
+archlinux/.config/noctalia/*
+!archlinux/.config/noctalia/settings.json
+fedora/.config/noctalia/*
+!fedora/.config/noctalia/settings.json
