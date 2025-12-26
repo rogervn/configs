@@ -1,0 +1,113 @@
+{
+  "appLauncher": {
+    "enableClipPreview": true,
+    "enableClipboardHistory": true,
+    "showCategories": false,
+    "terminalCommand": "ghostty -e"
+  },
+  "bar": {
+    "density": "comfortable",
+    "transparent": true,
+    "widgets": {
+      "center": [
+        {
+          "id": "ActiveWindow"
+        }
+      ],
+      "left": [
+        {
+          "id": "ControlCenter",
+          "useDistroLogo": true
+        },
+        {
+          "hideUnnocupied": false,
+          "id": "Workspace"
+        }
+      ],
+      "right": [
+        {
+          "id": "KeepAwake"
+        },
+        {
+          "displayMode": "alwaysShow",
+          "id": "Volume"
+        },
+        {
+          "displayMode": "alwaysShow",
+          "id": "Brightness"
+        },
+        {
+          "id": "PowerProfile"
+        },
+        {
+          "diskPath": "/",
+          "id": "SystemMonitor",
+          "showDiskUsage": true
+        },
+        {
+          "displayMode": "alwaysShow",
+          "id": "Battery"
+        },
+        {
+          "displayMode": "alwaysShow",
+          "id": "WiFi"
+        },
+        {
+          "id": "Bluetooth"
+        },
+        {
+          "drawerEnabled": false,
+          "id": "Tray"
+        },
+        {
+          "formatHorizontal": "HH:mm ddd dd MMM",
+          "id": "Clock"
+        },
+        {
+          "id": "NotificationHistory"
+        },
+        {
+          "id": "SessionMenu"
+        }
+      ]
+    }
+  },
+  "calendar": {
+    "enabled": false
+  },
+  "colorSchemes": {
+    "matugenSchemeType": "scheme-tonal-spot",
+    "useWallpaperColors": true
+  },
+  "dock": {
+    "enabled": false
+  },
+  "location": {
+    "name": "London"
+  },
+  "notifications": {
+    "criticalUrgencyDuration": -1,
+    "lowUrgencyDuration": 2,
+    "normalUrgencyDuration": -1
+  },
+  "sessionMenu": {
+    "enableCountdown": false
+  },
+  "templates": {
+    "ghostty": true,
+    "gtk": true,
+    "hyprland": true,
+    "qt": true
+  },
+  "ui": {
+    "fontDefault": "Noto Sans",
+    "fontDefaultScale": 1.1,
+    "fontFixed": "Noto Sans Mono",
+    "fontFixedScale": 1.2
+  },
+  "wallpaper": {
+    "directory": "~/.config/hypr/wallpaper",
+    "randomEnabled": true,
+    "randomIntervalSec": 7200
+  }
+}
