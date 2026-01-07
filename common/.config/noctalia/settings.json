@@ -496,8 +496,8 @@
         "fontFixed": "JetBrains Mono",
         "fontFixedScale": 1.2,
         "panelBackgroundOpacity": 0.93,
-        "panelsAttachedToBar": true,
-        "settingsPanelMode": "attached",
+        "panelsAttachedToBar": false,
+        "settingsPanelMode": "window",
         "tooltipsEnabled": true
     },
     "wallpaper": {
