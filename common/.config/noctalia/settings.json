@@ -6,7 +6,6 @@
         "customLaunchPrefixEnabled": false,
         "enableClipPreview": true,
         "enableClipboardHistory": true,
-        "enableSettingsSearch": true,
         "iconMode": "tabler",
         "ignoreMouseInput": false,
         "pinnedApps": [
@@ -26,7 +25,6 @@
         ],
         "preferredPlayer": "",
         "visualizerType": "linear",
-        "volumeFeedback": false,
         "volumeOverdrive": false,
         "volumeStep": 5
     },
@@ -43,8 +41,6 @@
         ],
         "outerCorners": true,
         "position": "top",
-        "screenOverrides": [
-        ],
         "showCapsule": true,
         "showOutline": false,
         "useSeparateOpacity": true,
@@ -96,7 +92,6 @@
                     "showMemoryAsPercent": false,
                     "showMemoryUsage": true,
                     "showNetworkStats": false,
-                    "showSwapUsage": false,
                     "useMonospaceFont": true,
                     "usePrimaryColor": false
                 },
@@ -120,7 +115,6 @@
                 {
                     "deviceNativePath": "",
                     "displayMode": "alwaysShow",
-                    "hideIfIdle": false,
                     "hideIfNotDetected": true,
                     "id": "Battery",
                     "showNoctaliaPerformance": false,
@@ -194,10 +188,9 @@
     },
     "colorSchemes": {
         "darkMode": true,
-        "generationMethod": "tonal-spot",
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
-        "monitorForColors": "",
+        "matugenSchemeType": "scheme-fruit-salad",
         "predefinedScheme": "Noctalia (default)",
         "schedulingMode": "off",
         "useWallpaperColors": true
@@ -291,13 +284,11 @@
         "boxRadiusRatio": 1,
         "compactLockScreen": false,
         "dimmerOpacity": 0.2,
-        "enableLockScreenCountdown": true,
         "enableShadows": true,
         "forceBlackScreenCorners": false,
         "iRadiusRatio": 1,
         "language": "",
         "lockOnSuspend": true,
-        "lockScreenCountdownDuration": 10000,
         "radiusRatio": 1,
         "scaleRatio": 1,
         "screenRadiusRatio": 1,
@@ -318,7 +309,6 @@
         "screenLock": "",
         "screenUnlock": "",
         "session": "",
-        "startup": "",
         "wallpaperChange": ""
     },
     "location": {
@@ -442,7 +432,7 @@
         "showHeader": true,
         "showNumberLabels": true
     },
-    "settingsVersion": 44,
+    "settingsVersion": 41,
     "systemMonitor": {
         "cpuCriticalThreshold": 90,
         "cpuPollingInterval": 3000,
@@ -461,8 +451,6 @@
         "memPollingInterval": 3000,
         "memWarningThreshold": 80,
         "networkPollingInterval": 3000,
-        "swapCriticalThreshold": 90,
-        "swapWarningThreshold": 80,
         "tempCriticalThreshold": 90,
         "tempPollingInterval": 3000,
         "tempWarningThreshold": 80,
@@ -488,7 +476,7 @@
                 "id": "hyprland"
             }
         ],
-        "enableUserTheming": false
+        "enableUserTemplates": false
     },
     "ui": {
         "bluetoothDetailsViewMode": "grid",
@@ -506,7 +494,6 @@
         "wifiDetailsViewMode": "grid"
     },
     "wallpaper": {
-        "automationEnabled": true,
         "directory": "~/.config/hypr/wallpaper",
         "enableMultiMonitorDirectories": false,
         "enabled": true,
@@ -517,16 +504,16 @@
         ],
         "overviewEnabled": false,
         "panelPosition": "follow_bar",
+        "randomEnabled": false,
         "randomIntervalSec": 7200,
+        "recursiveSearch": false,
         "setWallpaperOnAllMonitors": true,
-        "showHiddenFiles": false,
         "solidColor": "#1a1a2e",
         "transitionDuration": 1500,
         "transitionEdgeSmoothness": 0.05,
         "transitionType": "random",
         "useSolidColor": false,
         "useWallhaven": false,
-        "viewMode": "single",
         "wallhavenApiKey": "",
         "wallhavenCategories": "111",
         "wallhavenOrder": "desc",
