@@ -1,0 +1,5 @@
+^\.config/hypr/hypridle\.conf$
+^\.config/hypr/hyprland\.conf\.d/monitors\.conf$
+^\.config/hypr/hyprland\.conf\.d/default-programs\.conf$
+^\.config/hypr/hyprland\.conf\.d/extra-autostart\.conf$
+^\.config/hypr/hyprland\.conf\.d/window-rules\.conf$
